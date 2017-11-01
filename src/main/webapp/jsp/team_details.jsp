@@ -3,8 +3,9 @@
 
 <spring:url var="css" value="/resources/css" />
 <spring:url var="js" value="/resources/js" />
+<spring:url var="images" value="/resources/images" />
 <spring:url var="videos" value="/resources/videos" />
-<spring:url var="pdfs" value="/resources/pdfs" />
+
 
 <!DOCTYPE html>
 <html lang="en">
@@ -12,8 +13,7 @@
 <head>
 
 <meta charset="utf-8">
-<meta name="viewport"
-	content="width=device-width, initial-scale=1, shrink-to-fit=no">
+<meta name="viewport" content="width=device-width, initial-scale=1">
 <meta name="description" content="">
 <meta name="author" content="">
 
@@ -21,11 +21,15 @@
 
 <!-- Bootstrap core CSS -->
 <link href="${css}/bootstrap.min.css" rel="stylesheet">
+<link href="${css}/custom.css" rel="stylesheet">
+<link rel="stylesheet"
+	href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 
 <!-- Custom styles for this template -->
 <link href="${css}/3-col-portfolio.css" rel="stylesheet">
 
 </head>
+
 <body>
 
 	<!-- Navigation -->
@@ -45,11 +49,11 @@
 							class="sr-only">(current)</span>
 					</a></li>
 					<li class="nav-item"><a class="nav-link" href="#">About</a></li>
-					<li class="nav-item"><a class="nav-link"
+					<li class="nav-item active"><a class="nav-link"
 						href="${pageContext.request.contextPath}/jsp/team_details.jsp">Team</a></li>
 					<li class="nav-item"><a class="nav-link"
 						href="${pageContext.request.contextPath}/jsp/services.jsp">Services</a></li>
-					<li class="nav-item active"><a class="nav-link"
+					<li class="nav-item"><a class="nav-link"
 						href="${pageContext.request.contextPath}/jsp/learnu_content.jsp">LearnU</a></li>
 					<li class="nav-item"><a class="nav-link"
 						href="${pageContext.request.contextPath}/jsp/exclusiveit.jsp">ExclusiveIT</a></li>
@@ -65,7 +69,9 @@
 	<div class="container">
 
 		<!-- Page Heading -->
-		<h1 class="my-4">Videos</h1>
+		<h1 class="my-4">
+			Page Heading <small>Secondary Text</small>
+		</h1>
 
 		<div class="row">
 			<div class="col-lg-4 col-sm-6 portfolio-item">
@@ -73,9 +79,15 @@
 					<a href="#"><img class="card-img-top"
 						src="http://placehold.it/700x400" alt=""></a>
 					<div class="card-body">
-						<video controls>
-							<source src="${videos}/mov_bbb.mp4" type="video/mp4">
-						</video>
+						<img class="img-circle" alt="" src="${images}/Ashley_-Muldoon.jpg">
+						<div class="img-hover">
+							<a href="#" class="fa fa-facebook"></a> <a href="#"
+								class="fa fa-twitter"></a> <a href="#" class="fa fa-google"></a>
+							<a href="#" class="fa fa-linkedin"></a>
+						</div>
+						<div style="text-align: center;">
+							<b>ASHLEY MULDOON</b>
+						</div>
 					</div>
 				</div>
 			</div>
@@ -84,21 +96,15 @@
 					<a href="#"><img class="card-img-top"
 						src="http://placehold.it/700x400" alt=""></a>
 					<div class="card-body">
-						<video controls>
-							<source src="${videos}/mov_bbb.mp4" type="video/mp4">
-						</video>
-					</div>
-				</div>
-			</div>
-
-			<div class="col-lg-4 col-sm-6 portfolio-item">
-				<div class="card h-100">
-					<a href="#"><img class="card-img-top"
-						src="http://placehold.it/700x400" alt=""></a>
-					<div class="card-body">
-						<video controls>
-							<source src="${videos}/mov_bbb.mp4" type="video/mp4">
-						</video>
+						<img class="img-circle" alt="" src="${images}/Ashley_-Muldoon.jpg">
+						<div class="img-hover">
+							<a href="#" class="fa fa-facebook"></a> <a href="#"
+								class="fa fa-twitter"></a> <a href="#" class="fa fa-google"></a>
+							<a href="#" class="fa fa-linkedin"></a>
+						</div>
+						<div style="text-align: center;">
+							<b>ASHLEY MULDOON</b>
+						</div>
 					</div>
 				</div>
 			</div>
@@ -107,9 +113,15 @@
 					<a href="#"><img class="card-img-top"
 						src="http://placehold.it/700x400" alt=""></a>
 					<div class="card-body">
-						<video controls>
-							<source src="${videos}/mov_bbb.mp4" type="video/mp4">
-						</video>
+						<img class="img-circle" alt="" src="${images}/Ashley_-Muldoon.jpg">
+						<div class="img-hover">
+							<a href="#" class="fa fa-facebook"></a> <a href="#"
+								class="fa fa-twitter"></a> <a href="#" class="fa fa-google"></a>
+							<a href="#" class="fa fa-linkedin"></a>
+						</div>
+						<div style="text-align: center;">
+							<b>ASHLEY MULDOON</b>
+						</div>
 					</div>
 				</div>
 			</div>
@@ -118,9 +130,15 @@
 					<a href="#"><img class="card-img-top"
 						src="http://placehold.it/700x400" alt=""></a>
 					<div class="card-body">
-						<video controls>
-							<source src="${videos}/mov_bbb.mp4" type="video/mp4">
-						</video>
+						<img class="img-circle" alt="" src="${images}/Ashley_-Muldoon.jpg">
+						<div class="img-hover">
+							<a href="#" class="fa fa-facebook"></a> <a href="#"
+								class="fa fa-twitter"></a> <a href="#" class="fa fa-google"></a>
+							<a href="#" class="fa fa-linkedin"></a>
+						</div>
+						<div style="text-align: center;">
+							<b>ASHLEY MULDOON</b>
+						</div>
 					</div>
 				</div>
 			</div>
@@ -129,74 +147,94 @@
 					<a href="#"><img class="card-img-top"
 						src="http://placehold.it/700x400" alt=""></a>
 					<div class="card-body">
-						<video controls>
-							<source src="${videos}/mov_bbb.mp4" type="video/mp4">
-						</video>
+						<img class="img-circle" alt="" src="${images}/Ashley_-Muldoon.jpg">
+						<div class="img-hover">
+							<a href="#" class="fa fa-facebook"></a> <a href="#"
+								class="fa fa-twitter"></a> <a href="#" class="fa fa-google"></a>
+							<a href="#" class="fa fa-linkedin"></a>
+						</div>
+						<div style="text-align: center;">
+							<b>ASHLEY MULDOON</b>
+						</div>
 					</div>
 				</div>
 			</div>
-
-			<br>
-
+			<div class="col-lg-4 col-sm-6 portfolio-item">
+				<div class="card h-100">
+					<a href="#"><img class="card-img-top"
+						src="http://placehold.it/700x400" alt=""></a>
+					<div class="card-body">
+						<img class="img-circle" alt="" src="${images}/Ashley_-Muldoon.jpg">
+						<div class="img-hover">
+							<a href="#" class="fa fa-facebook"></a> <a href="#"
+								class="fa fa-twitter"></a> <a href="#" class="fa fa-google"></a>
+							<a href="#" class="fa fa-linkedin"></a>
+						</div>
+						<div style="text-align: center;">
+							<b>ASHLEY MULDOON</b>
+						</div>
+					</div>
+				</div>
+			</div>
+			<div class="col-lg-4 col-sm-6 portfolio-item">
+				<div class="card h-100">
+					<a href="#"><img class="card-img-top"
+						src="http://placehold.it/700x400" alt=""></a>
+					<div class="card-body">
+						<img class="img-circle" alt="" src="${images}/Ashley_-Muldoon.jpg">
+						<div class="img-hover">
+							<a href="#" class="fa fa-facebook"></a> <a href="#"
+								class="fa fa-twitter"></a> <a href="#" class="fa fa-google"></a>
+							<a href="#" class="fa fa-linkedin"></a>
+						</div>
+						<div style="text-align: center;">
+							<b>ASHLEY MULDOON</b>
+						</div>
+					</div>
+				</div>
+			</div>
+			<div class="col-lg-4 col-sm-6 portfolio-item">
+				<div class="card h-100">
+					<a href="#"><img class="card-img-top"
+						src="http://placehold.it/700x400" alt=""></a>
+					<div class="card-body">
+						<img class="img-circle" alt="" src="${images}/Ashley_-Muldoon.jpg">
+						<div class="img-hover">
+							<a href="#" class="fa fa-facebook"></a> <a href="#"
+								class="fa fa-twitter"></a> <a href="#" class="fa fa-google"></a>
+							<a href="#" class="fa fa-linkedin"></a>
+						</div>
+						<div style="text-align: center;">
+							<b>ASHLEY MULDOON</b>
+						</div>
+					</div>
+				</div>
+			</div>
+			<div class="col-lg-4 col-sm-6 portfolio-item">
+				<div class="card h-100">
+					<a href="#"><img class="card-img-top"
+						src="http://placehold.it/700x400" alt=""></a>
+					<div class="card-body">
+						<img class="img-circle" alt="" src="${images}/Ashley_-Muldoon.jpg">
+						<div class="img-hover">
+							<a href="#" class="fa fa-facebook"></a> <a href="#"
+								class="fa fa-twitter"></a> <a href="#" class="fa fa-google"></a>
+							<a href="#" class="fa fa-linkedin"></a>
+						</div>
+						<div style="text-align: center;">
+							<b>ASHLEY MULDOON</b>
+						</div>
+					</div>
+				</div>
+			</div>
 		</div>
-		<!-- /.row -->
-
-		<h1 class="my-4">Documents</h1>
-		<div class="row">
-			<div class="col-lg-4 col-sm-6 portfolio-item">
-				<div class="card h-100">
-					<a href="#"><img class="card-img-top"
-						src="http://placehold.it/700x400" alt=""></a>
-					<div class="card-body">
-
-						<p>
-							Alternative text - include a link <a
-								href="${pdfs}/Course_Reg.pdf">to the PDF!</a>
-						</p>
-
-					</div>
-				</div>
-			</div>
-			<div class="col-lg-4 col-sm-6 portfolio-item">
-				<div class="card h-100">
-					<a href="#"><img class="card-img-top"
-						src="http://placehold.it/700x400" alt=""></a>
-					<div class="card-body">
-
-						<p>
-							Alternative text - include a link <a
-								href="${pdfs}/Course_Reg.pdf">to the PDF!</a>
-						</p>
-
-					</div>
-				</div>
-			</div>
-			<div class="col-lg-4 col-sm-6 portfolio-item">
-				<div class="card h-100">
-					<a href="#"><img class="card-img-top"
-						src="http://placehold.it/700x400" alt=""></a>
-					<div class="card-body">
-
-						<p>
-							Alternative text - include a link <a
-								href="${pdfs}/Course_Reg.pdf">to the PDF!</a>
-						</p>
-
-					</div>
-				</div>
-			</div>
-		</div>
-
 
 	</div>
-
 
 	<!-- Footer -->
 	<footer class="py-5 bg-dark">
 		<div class="container">
-			<p class="m-0 text-center text-white">
-				&copy; 2017. Multiplex is a <b>Brookfield</b> company.
-			</p>
+			<p class="m-0 text-center text-white">&copy; 2017. Multiplex is a <b>Brookfield</b> company.</p>
 		</div>
 		<!-- /.container -->
 	</footer>
@@ -205,5 +243,7 @@
 	<script src="${js}/jquery.min.js"></script>
 	<script src="https://npmcdn.com/tether@1.2.4/dist/js/tether.min.js"></script>
 	<script src="${js}/bootstrap.bundle.min.js"></script>
+
+
 </body>
 </html>

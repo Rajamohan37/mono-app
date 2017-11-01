@@ -4,7 +4,7 @@
 <spring:url var="css" value="/resources/css" />
 <spring:url var="js" value="/resources/js" />
 <spring:url var="videos" value="/resources/videos" />
-<spring:url var="pdfs" value="/resources/pdfs" />
+<spring:url var="images" value="/resources/images" />
 
 <!DOCTYPE html>
 <html lang="en">
@@ -24,10 +24,11 @@
 
 <!-- Custom styles for this template -->
 <link href="${css}/3-col-portfolio.css" rel="stylesheet">
+<link href="${css}/custom.css" rel="stylesheet">
 
 </head>
-<body>
 
+<body>
 	<!-- Navigation -->
 	<nav class="navbar navbar-expand-lg navbar-dark bg-dark fixed-top">
 		<div class="container">
@@ -47,11 +48,11 @@
 					<li class="nav-item"><a class="nav-link" href="#">About</a></li>
 					<li class="nav-item"><a class="nav-link"
 						href="${pageContext.request.contextPath}/jsp/team_details.jsp">Team</a></li>
-					<li class="nav-item"><a class="nav-link"
+					<li class="nav-item "><a class="nav-link"
 						href="${pageContext.request.contextPath}/jsp/services.jsp">Services</a></li>
-					<li class="nav-item active"><a class="nav-link"
-						href="${pageContext.request.contextPath}/jsp/learnu_content.jsp">LearnU</a></li>
 					<li class="nav-item"><a class="nav-link"
+						href="${pageContext.request.contextPath}/jsp/learnu_content.jsp">LearnU</a></li>
+					<li class="nav-item active"><a class="nav-link"
 						href="${pageContext.request.contextPath}/jsp/exclusiveit.jsp">ExclusiveIT</a></li>
 					<li class="nav-item"><a class="nav-link"
 						href="${pageContext.request.contextPath}/jsp/contact_us.jsp">Contact</a>
@@ -65,138 +66,132 @@
 	<div class="container">
 
 		<!-- Page Heading -->
-		<h1 class="my-4">Videos</h1>
+		<h1 class="my-4">
+			Page Heading <small>Secondary Text</small>
+		</h1>
 
 		<div class="row">
-			<div class="col-lg-4 col-sm-6 portfolio-item">
+			<div class="col-lg-3 col-sm-4 portfolio-item">
 				<div class="card h-100">
 					<a href="#"><img class="card-img-top"
 						src="http://placehold.it/700x400" alt=""></a>
 					<div class="card-body">
-						<video controls>
-							<source src="${videos}/mov_bbb.mp4" type="video/mp4">
-						</video>
-					</div>
-				</div>
-			</div>
-			<div class="col-lg-4 col-sm-6 portfolio-item">
-				<div class="card h-100">
-					<a href="#"><img class="card-img-top"
-						src="http://placehold.it/700x400" alt=""></a>
-					<div class="card-body">
-						<video controls>
-							<source src="${videos}/mov_bbb.mp4" type="video/mp4">
-						</video>
-					</div>
-				</div>
-			</div>
-
-			<div class="col-lg-4 col-sm-6 portfolio-item">
-				<div class="card h-100">
-					<a href="#"><img class="card-img-top"
-						src="http://placehold.it/700x400" alt=""></a>
-					<div class="card-body">
-						<video controls>
-							<source src="${videos}/mov_bbb.mp4" type="video/mp4">
-						</video>
-					</div>
-				</div>
-			</div>
-			<div class="col-lg-4 col-sm-6 portfolio-item">
-				<div class="card h-100">
-					<a href="#"><img class="card-img-top"
-						src="http://placehold.it/700x400" alt=""></a>
-					<div class="card-body">
-						<video controls>
-							<source src="${videos}/mov_bbb.mp4" type="video/mp4">
-						</video>
-					</div>
-				</div>
-			</div>
-			<div class="col-lg-4 col-sm-6 portfolio-item">
-				<div class="card h-100">
-					<a href="#"><img class="card-img-top"
-						src="http://placehold.it/700x400" alt=""></a>
-					<div class="card-body">
-						<video controls>
-							<source src="${videos}/mov_bbb.mp4" type="video/mp4">
-						</video>
-					</div>
-				</div>
-			</div>
-			<div class="col-lg-4 col-sm-6 portfolio-item">
-				<div class="card h-100">
-					<a href="#"><img class="card-img-top"
-						src="http://placehold.it/700x400" alt=""></a>
-					<div class="card-body">
-						<video controls>
-							<source src="${videos}/mov_bbb.mp4" type="video/mp4">
-						</video>
-					</div>
-				</div>
-			</div>
-
-			<br>
-
-		</div>
-		<!-- /.row -->
-
-		<h1 class="my-4">Documents</h1>
-		<div class="row">
-			<div class="col-lg-4 col-sm-6 portfolio-item">
-				<div class="card h-100">
-					<a href="#"><img class="card-img-top"
-						src="http://placehold.it/700x400" alt=""></a>
-					<div class="card-body">
-
-						<p>
-							Alternative text - include a link <a
-								href="${pdfs}/Course_Reg.pdf">to the PDF!</a>
+						<div>
+							<a
+								href="${pageContext.request.contextPath}/jsp/ex/application_support.jsp"><img
+								class="grow" src="${images}/services.ico"></a>
+						</div>
+						<br />
+						<p style="text-align: center;">
+							<b>Application Support</b>
 						</p>
-
 					</div>
+
 				</div>
 			</div>
-			<div class="col-lg-4 col-sm-6 portfolio-item">
+			<div class="col-lg-3 col-sm-4 portfolio-item">
 				<div class="card h-100">
 					<a href="#"><img class="card-img-top"
 						src="http://placehold.it/700x400" alt=""></a>
 					<div class="card-body">
-
-						<p>
-							Alternative text - include a link <a
-								href="${pdfs}/Course_Reg.pdf">to the PDF!</a>
+						<div>
+							<a href="#"><img class="grow" src="${images}/services.ico"></a>
+						</div>
+						<br />
+						<p style="text-align: center;">
+							<b>Identity & Access Management</b>
 						</p>
-
 					</div>
+
 				</div>
 			</div>
-			<div class="col-lg-4 col-sm-6 portfolio-item">
+			<div class="col-lg-3 col-sm-4 portfolio-item">
 				<div class="card h-100">
 					<a href="#"><img class="card-img-top"
 						src="http://placehold.it/700x400" alt=""></a>
 					<div class="card-body">
-
-						<p>
-							Alternative text - include a link <a
-								href="${pdfs}/Course_Reg.pdf">to the PDF!</a>
+						<div>
+							<a href="#"><img class="grow" src="${images}/services.ico"></a>
+						</div>
+						<br />
+						<p style="text-align: center;">
+							<b>Network Infrastructure</b>
 						</p>
-
 					</div>
+
+				</div>
+			</div>
+			<div class="col-lg-3 col-sm-4 portfolio-item">
+				<div class="card h-100">
+					<a href="#"><img class="card-img-top"
+						src="http://placehold.it/700x400" alt=""></a>
+					<div class="card-body">
+						<div>
+							<a href="#"><img class="grow" src="${images}/services.ico"></a>
+						</div>
+						<br />
+						<p style="text-align: center;">
+							<b>Systems</b>
+						</p>
+					</div>
+
+				</div>
+			</div>
+			<div class="col-lg-3 col-sm-4 portfolio-item">
+				<div class="card h-100">
+					<a href="#"><img class="card-img-top"
+						src="http://placehold.it/700x400" alt=""></a>
+					<div class="card-body">
+						<div>
+							<a href="#"><img class="grow" src="${images}/services.ico"></a>
+						</div>
+						<br />
+						<p style="text-align: center;">
+							<b>Global Service Desk</b>
+						</p>
+					</div>
+
+				</div>
+			</div>
+			<div class="col-lg-3 col-sm-4 portfolio-item">
+				<div class="card h-100">
+					<a href="#"><img class="card-img-top"
+						src="http://placehold.it/700x400" alt=""></a>
+					<div class="card-body">
+						<div>
+							<a href="#"><img class="grow" src="${images}/services.ico"></a>
+						</div>
+						<br />
+						<p style="text-align: center;">
+							<b>HRD</b>
+						</p>
+					</div>
+
+				</div>
+			</div>
+			<div class="col-lg-3 col-sm-4 portfolio-item">
+				<div class="card h-100">
+					<a href="#"><img class="card-img-top"
+						src="http://placehold.it/700x400" alt=""></a>
+					<div class="card-body">
+						<div>
+							<a href="#"><img class="grow" src="${images}/services.ico"></a>
+						</div>
+						<br />
+						<p style="text-align: center;">
+							<b>Global Service Management</b>
+						</p>
+					</div>
+
 				</div>
 			</div>
 		</div>
-
-
 	</div>
-
 
 	<!-- Footer -->
 	<footer class="py-5 bg-dark">
 		<div class="container">
-			<p class="m-0 text-center text-white">
-				&copy; 2017. Multiplex is a <b>Brookfield</b> company.
-			</p>
+			<p class="m-0 text-center text-white">&copy; 2017. Multiplex is a <b>Brookfield</b> company.</p>
 		</div>
 		<!-- /.container -->
 	</footer>
@@ -205,5 +200,7 @@
 	<script src="${js}/jquery.min.js"></script>
 	<script src="https://npmcdn.com/tether@1.2.4/dist/js/tether.min.js"></script>
 	<script src="${js}/bootstrap.bundle.min.js"></script>
+
 </body>
+
 </html>

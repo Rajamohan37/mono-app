@@ -49,9 +49,9 @@
 						href="${pageContext.request.contextPath}/jsp/team_details.jsp">Team</a></li>
 					<li class="nav-item"><a class="nav-link"
 						href="${pageContext.request.contextPath}/jsp/services.jsp">Services</a></li>
-					<li class="nav-item active"><a class="nav-link"
+					<li class="nav-item "><a class="nav-link"
 						href="${pageContext.request.contextPath}/jsp/learnu_content.jsp">LearnU</a></li>
-					<li class="nav-item"><a class="nav-link"
+					<li class="nav-item active"><a class="nav-link"
 						href="${pageContext.request.contextPath}/jsp/exclusiveit.jsp">ExclusiveIT</a></li>
 					<li class="nav-item"><a class="nav-link"
 						href="${pageContext.request.contextPath}/jsp/contact_us.jsp">Contact</a>

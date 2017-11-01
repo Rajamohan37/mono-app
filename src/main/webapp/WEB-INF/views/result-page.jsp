@@ -1,5 +1,7 @@
 <%@ page language="java" contentType="text/html; charset=ISO-8859-1"
-	pageEncoding="ISO-8859-1"%>
+    pageEncoding="ISO-8859-1"%>
+
+
 <!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN" "http://www.w3.org/TR/html4/loose.dtd">
 <html>
 <head>
@@ -7,13 +9,6 @@
 <title>Insert title here</title>
 </head>
 <body>
-	<a href="${pageContext.request.contextPath}/jsp/learnu_content.jsp">Cleck
-		Here</a>
-
-	<object data="myfile.pdf" type="application/pdf" width="100%"
-		height="100%"> 
-		 <p>Alternative text - include a link <a href="myfile.pdf">to the PDF!</a></p>
-	</object>
-
+Result Page ${dto.name }
 </body>
 </html>
