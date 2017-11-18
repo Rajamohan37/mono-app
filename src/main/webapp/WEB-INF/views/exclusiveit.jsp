@@ -42,10 +42,8 @@
 			<div class="collapse navbar-collapse" id="navbarResponsive">
 				<ul class="navbar-nav ml-auto">
 					<li class="nav-item"><a class="nav-link"
-						href="${pageContext.request.contextPath}/home">Home <span
-							class="sr-only">(current)</span>
-					</a></li>
-					<li class="nav-item"><a class="nav-link" href="#">About</a></li>
+						href="${pageContext.request.contextPath}/home">Home</a></li>
+					<li class="nav-item"><a class="nav-link" href="${pageContext.request.contextPath}/jsp/aboutus.jsp">About</a></li>
 					<li class="nav-item"><a class="nav-link"
 						href="${pageContext.request.contextPath}/jsp/team_details.jsp">Team</a></li>
 					<li class="nav-item "><a class="nav-link"
@@ -73,8 +71,7 @@
 		<div class="row">
 			<div class="col-lg-3 col-sm-4 portfolio-item">
 				<div class="card h-100">
-					<a href="#"><img class="card-img-top"
-						src="http://placehold.it/700x400" alt=""></a>
+					
 					<div class="card-body">
 						<div>
 							<a
@@ -91,8 +88,7 @@
 			</div>
 			<div class="col-lg-3 col-sm-4 portfolio-item">
 				<div class="card h-100">
-					<a href="#"><img class="card-img-top"
-						src="http://placehold.it/700x400" alt=""></a>
+					
 					<div class="card-body">
 						<div>
 							<a href="#"><img class="grow" src="${images}/services.ico"></a>
@@ -107,8 +103,7 @@
 			</div>
 			<div class="col-lg-3 col-sm-4 portfolio-item">
 				<div class="card h-100">
-					<a href="#"><img class="card-img-top"
-						src="http://placehold.it/700x400" alt=""></a>
+					
 					<div class="card-body">
 						<div>
 							<a href="#"><img class="grow" src="${images}/services.ico"></a>
@@ -123,8 +118,7 @@
 			</div>
 			<div class="col-lg-3 col-sm-4 portfolio-item">
 				<div class="card h-100">
-					<a href="#"><img class="card-img-top"
-						src="http://placehold.it/700x400" alt=""></a>
+					
 					<div class="card-body">
 						<div>
 							<a href="#"><img class="grow" src="${images}/services.ico"></a>
@@ -139,8 +133,7 @@
 			</div>
 			<div class="col-lg-3 col-sm-4 portfolio-item">
 				<div class="card h-100">
-					<a href="#"><img class="card-img-top"
-						src="http://placehold.it/700x400" alt=""></a>
+					
 					<div class="card-body">
 						<div>
 							<a href="#"><img class="grow" src="${images}/services.ico"></a>
@@ -155,8 +148,7 @@
 			</div>
 			<div class="col-lg-3 col-sm-4 portfolio-item">
 				<div class="card h-100">
-					<a href="#"><img class="card-img-top"
-						src="http://placehold.it/700x400" alt=""></a>
+					
 					<div class="card-body">
 						<div>
 							<a href="#"><img class="grow" src="${images}/services.ico"></a>
@@ -171,8 +163,7 @@
 			</div>
 			<div class="col-lg-3 col-sm-4 portfolio-item">
 				<div class="card h-100">
-					<a href="#"><img class="card-img-top"
-						src="http://placehold.it/700x400" alt=""></a>
+					
 					<div class="card-body">
 						<div>
 							<a href="#"><img class="grow" src="${images}/services.ico"></a>

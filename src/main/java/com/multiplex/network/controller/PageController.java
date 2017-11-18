@@ -13,13 +13,43 @@ import com.multiplex.network.dto.ContactFormDTO;
 @Controller
 public class PageController {
 
-	@RequestMapping(value = { "/", "/home", "/index" })
-	public ModelAndView index() {
-		ModelAndView mv = new ModelAndView("page");
+	@RequestMapping(value = { "/", "/home"})
+	public ModelAndView home() {
+		ModelAndView mv = new ModelAndView("home_page");
 		return mv;
 	}
-
-	@RequestMapping(value = {"/contact"})
+	
+	@RequestMapping("/about")
+	public ModelAndView about() {
+		ModelAndView mv = new ModelAndView("aboutus");
+		return mv;
+	}
+	
+	@RequestMapping("/team")
+	public ModelAndView team() {
+		ModelAndView mv = new ModelAndView("team_details");
+		return mv;
+	}
+	
+	@RequestMapping("/learnU")
+	public ModelAndView learn() {
+		ModelAndView mv = new ModelAndView("learnu_content");
+		return mv;
+	}
+	
+	@RequestMapping("/services")
+	public ModelAndView services() {
+		ModelAndView mv = new ModelAndView("services");
+		return mv;
+	}
+	
+	@RequestMapping("/exclusiveIT")
+	public ModelAndView exclusiveit() {
+		ModelAndView mv = new ModelAndView("exclusiveit");
+		return mv;
+	}
+	
+	@RequestMapping("/contact")
 	public ModelAndView contactForm() {
 		return new ModelAndView("contact_us", "contact-entity", new ContactFormDTO());
 	}

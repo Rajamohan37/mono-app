@@ -45,7 +45,7 @@
 						href="${pageContext.request.contextPath}/home">Home <span
 							class="sr-only">(current)</span>
 					</a></li>
-					<li class="nav-item"><a class="nav-link" href="#">About</a></li>
+					<li class="nav-item"><a class="nav-link" href="${pageContext.request.contextPath}/jsp/aboutus.jsp">About</a></li>
 					<li class="nav-item"><a class="nav-link"
 						href="${pageContext.request.contextPath}/jsp/team_details.jsp">Team</a></li>
 					<li class="nav-item"><a class="nav-link"
@@ -73,8 +73,7 @@
 		<div class="row">
 			<div class="col-lg-4 col-sm-6 portfolio-item">
 				<div class="card h-100">
-					<a href="#"><img class="card-img-top"
-						src="http://placehold.it/700x400" alt=""></a>
+					
 					<div class="card-body">
 						<h4 class="card-title">
 							<a href="#">Project One</a>
@@ -88,8 +87,7 @@
 			</div>
 			<div class="col-lg-4 col-sm-6 portfolio-item">
 				<div class="card h-100">
-					<a href="#"><img class="card-img-top"
-						src="http://placehold.it/700x400" alt=""></a>
+					
 					<div class="card-body">
 						<video controls>
 							<source src="${videos}/mov_bbb.mp4" type="video/mp4">
@@ -99,8 +97,7 @@
 			</div>
 			<div class="col-lg-4 col-sm-6 portfolio-item">
 				<div class="card h-100">
-					<a href="#"><img class="card-img-top"
-						src="http://placehold.it/700x400" alt=""></a>
+					
 					<div class="card-body">
 						<h4 class="card-title">
 							<a href="#">Project Three</a>
@@ -114,8 +111,7 @@
 			</div>
 			<div class="col-lg-4 col-sm-6 portfolio-item">
 				<div class="card h-100">
-					<a href="#"><img class="card-img-top"
-						src="http://placehold.it/700x400" alt=""></a>
+					
 					<div class="card-body">
 						<h4 class="card-title">
 							<a href="#">Project Four</a>
@@ -128,8 +124,7 @@
 			</div>
 			<div class="col-lg-4 col-sm-6 portfolio-item">
 				<div class="card h-100">
-					<a href="#"><img class="card-img-top"
-						src="http://placehold.it/700x400" alt=""></a>
+			
 					<div class="card-body">
 						<h4 class="card-title">
 							<a href="#">Project Five</a>

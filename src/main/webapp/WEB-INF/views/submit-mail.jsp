@@ -22,6 +22,6 @@
 
 
 	Mail Received.!
-	<jsp:include page="../../jsp/contact_us.jsp"></jsp:include>
+	
 </body>
 </html>
