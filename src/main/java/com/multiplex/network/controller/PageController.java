@@ -19,6 +19,12 @@ public class PageController {
 		return mv;
 	}
 	
+	@RequestMapping("/hm")
+	public ModelAndView hm() {
+		ModelAndView mv = new ModelAndView("home");
+		return mv;
+	}
+	
 	@RequestMapping("/about")
 	public ModelAndView about() {
 		ModelAndView mv = new ModelAndView("aboutus");

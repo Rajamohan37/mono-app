@@ -43,17 +43,18 @@
 				<ul class="navbar-nav ml-auto">
 					<li class="nav-item"><a class="nav-link"
 						href="${pageContext.request.contextPath}/home">Home</a></li>
-					<li class="nav-item"><a class="nav-link" href="${pageContext.request.contextPath}/jsp/aboutus.jsp">About</a></li>
 					<li class="nav-item"><a class="nav-link"
-						href="${pageContext.request.contextPath}/jsp/team_details.jsp">Team</a></li>
-					<li class="nav-item "><a class="nav-link"
-						href="${pageContext.request.contextPath}/jsp/services.jsp">Services</a></li>
+						href="${pageContext.request.contextPath}/about">About</a></li>
 					<li class="nav-item"><a class="nav-link"
-						href="${pageContext.request.contextPath}/jsp/learnu_content.jsp">LearnU</a></li>
+						href="${pageContext.request.contextPath}/team">Team</a></li>
+					<li class="nav-item"><a class="nav-link"
+						href="${pageContext.request.contextPath}/services">Services</a></li>
+					<li class="nav-item"><a class="nav-link"
+						href="${pageContext.request.contextPath}/learnU">LearnU</a></li>
 					<li class="nav-item active"><a class="nav-link"
-						href="${pageContext.request.contextPath}/jsp/exclusiveit.jsp">ExclusiveIT</a></li>
+						href="${pageContext.request.contextPath}/exclusiveIT">ExclusiveIT</a></li>
 					<li class="nav-item"><a class="nav-link"
-						href="${pageContext.request.contextPath}/jsp/contact_us.jsp">Contact</a>
+						href="${pageContext.request.contextPath}/contact">Contact</a>
 					</li>
 				</ul>
 			</div>
